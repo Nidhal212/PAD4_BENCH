@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Conda / virtualenv
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project-specific
+data/interim/         # large pipeline intermediates; regenerable
+results/**/*.pkl       # cached model artifacts
+results/**/*.h5
+.migration/staging/    # in-flight migration files
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# Manuscript work-in-progress
+manuscript/**/*~
+manuscript/**/.DS_Store
