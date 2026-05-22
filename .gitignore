@@ -26,15 +26,34 @@ venv/
 .DS_Store
 Thumbs.db
 
-# Project-specific
-data/interim/         # large pipeline intermediates; regenerable
-results/**/*.pkl       # cached model artifacts
-results/**/*.h5
-.migration/staging/    # in-flight migration files
-
 # Notebook checkpoints
 .ipynb_checkpoints/
 
-# Manuscript work-in-progress
-manuscript/**/*~
-manuscript/**/.DS_Store
+# ---------------------------------------------------------------
+# DATA — hosted on Zenodo, not GitHub
+# ---------------------------------------------------------------
+data/
+features_v17/
+features_v18/
+models_v1/
+
+# ---------------------------------------------------------------
+# GENERATED OUTPUTS — reproducible by running the scripts
+# ---------------------------------------------------------------
+results/
+paper/
+paper_intro/
+manuscript/
+
+# ---------------------------------------------------------------
+# LARGE PROVENANCE FILES — hosted on Zenodo
+# ---------------------------------------------------------------
+docs/data_provenance/*.csv
+
+# ---------------------------------------------------------------
+# RUNTIME ARTEFACTS
+# ---------------------------------------------------------------
+*.log
+*.pid
+smoke_test*.py
+run_fix_a.sh

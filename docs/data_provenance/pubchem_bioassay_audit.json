@@ -1,0 +1,437 @@
+{
+  "file": "PubChem_bioactivity_AID__uP8ciswJqbWemyGCo_popZZxaBE-tUvIMe1QhCr8QoUq5X4.csv",
+  "column_analysis": {
+    "Bioactivity_ID": {
+      "missing": 0,
+      "missing_pct": 0.0,
+      "unique": 332359,
+      "type": "numeric",
+      "dtype": "int64",
+      "top_values": null
+    },
+    "Aid_Type": {
+      "missing": 0,
+      "missing_pct": 0.0,
+      "unique": 4,
+      "type": "categorical_low",
+      "dtype": "object",
+      "top_values": {
+        "Screening": 329316,
+        "Confirmatory": 2274,
+        "Other": 591,
+        "Literature-derived": 178
+      }
+    },
+    "Activity": {
+      "missing": 0,
+      "missing_pct": 0.0,
+      "unique": 3,
+      "type": "categorical_low",
+      "dtype": "object",
+      "top_values": {
+        "Unspecified": 328468,
+        "Active": 3674,
+        "Probe": 217
+      }
+    },
+    "Protein_Accession": {
+      "missing": 0,
+      "missing_pct": 0.0,
+      "unique": 8,
+      "type": "categorical_low",
+      "dtype": "object",
+      "top_values": {
+        "NP_036519": 329505,
+        "Q9UM07": 2314,
+        "NP_057317": 149,
+        "NP_031391": 149,
+        "NP_037490": 149,
+        "Q9Z183": 65,
+        "Q08642": 16,
+        "Q9ULC6": 12
+      }
+    },
+    "Activity_Type": {
+      "missing": 330109,
+      "missing_pct": 99.32,
+      "unique": 5,
+      "type": "categorical_low",
+      "dtype": "object",
+      "top_values": {
+        "NaN": 330109,
+        "IC50": 2173,
+        "Ki": 68,
+        "Km": 4,
+        "Kcat": 4,
+        "Kinact": 1
+      }
+    },
+    "Activity_Qualifier": {
+      "missing": 331924,
+      "missing_pct": 99.87,
+      "unique": 4,
+      "type": "categorical_low",
+      "dtype": "object",
+      "top_values": {
+        "NaN": 331924,
+        "=": 175,
+        "<": 126,
+        ">": 122,
+        "<=": 12
+      }
+    },
+    "Bioassay_Data_Source": {
+      "missing": 0,
+      "missing_pct": 0.0,
+      "unique": 4,
+      "type": "categorical_low",
+      "dtype": "object",
+      "top_values": {
+        "The Scripps Research Institute Molecular Screening Center": 329949,
+        "BindingDB": 2028,
+        "ChEMBL": 379,
+        "IUPHAR/BPS Guide to PHARMACOLOGY": 3
+      }
+    },
+    "BioAssay_Name": {
+      "missing": 0,
+      "missing_pct": 0.0,
+      "unique": 110,
+      "type": "categorical_low",
+      "dtype": "object",
+      "top_values": null
+    },
+    "Compound_Name": {
+      "missing": 1,
+      "missing_pct": 0.0,
+      "unique": 328132,
+      "type": "high_cardinality",
+      "dtype": "object",
+      "top_values": null
+    },
+    "Target_Name": {
+      "missing": 0,
+      "missing_pct": 0.0,
+      "unique": 8,
+      "type": "categorical_low",
+      "dtype": "object",
+      "top_values": {
+        "PADI4 - peptidyl arginine deiminase 4 (human)": 331742,
+        "PADI3 - peptidyl arginine deiminase 3 (human)": 149,
+        "PADI2 - peptidyl arginine deiminase 2 (human)": 149,
+        "protein-arginine deiminase type-1 (human)": 149,
+        "Protein-arginine deiminase type-4 (human)": 77,
+        "Padi4 - peptidyl arginine deiminase, type IV (house mouse)": 65,
+        "Padi2 - peptidyl arginine deiminase, type II (house mouse)": 16,
+        "PADI1 - peptidyl arginine deiminase 1 (human)": 12
+      }
+    },
+    "Target_Link": {
+      "missing": 0,
+      "missing_pct": 0.0,
+      "unique": 8,
+      "type": "categorical_low",
+      "dtype": "object",
+      "top_values": {
+        "/gene/23569": 331742,
+        "/gene/51702": 149,
+        "/gene/11240": 149,
+        "/protein/NP_037490": 149,
+        "/protein/Q9UM07": 77,
+        "/gene/18602": 65,
+        "/gene/18600": 16,
+        "/gene/29943": 12
+      }
+    },
+    "ECs": {
+      "missing": 0,
+      "missing_pct": 0.0,
+      "unique": 1,
+      "type": "categorical_low",
+      "dtype": "object",
+      "top_values": {
+        "3.5.3.15": 332359
+      }
+    },
+    "Representative_Protein_Accession": {
+      "missing": 0,
+      "missing_pct": 0.0,
+      "unique": 6,
+      "type": "categorical_low",
+      "dtype": "object",
+      "top_values": {
+        "Q9UM07": 331819,
+        "Q9ULC6": 161,
+        "Q9ULW8": 149,
+        "Q9Y2J8": 149,
+        "Q9Z183": 65,
+        "Q08642": 16
+      }
+    },
+    "Cell_ID": {
+      "missing": 332359,
+      "missing_pct": 100.0,
+      "unique": 0,
+      "type": "numeric",
+      "dtype": "float64",
+      "top_values": null
+    },
+    "Anatomy": {
+      "missing": 332359,
+      "missing_pct": 100.0,
+      "unique": 0,
+      "type": "numeric",
+      "dtype": "float64",
+      "top_values": null
+    },
+    "dois": {
+      "missing": 331986,
+      "missing_pct": 99.89,
+      "unique": 27,
+      "type": "categorical_low",
+      "dtype": "object",
+      "top_values": null
+    },
+    "pmcids": {
+      "missing": 332102,
+      "missing_pct": 99.92,
+      "unique": 17,
+      "type": "categorical_low",
+      "dtype": "object",
+      "top_values": {
+        "NaN": 332102,
+        "PMC3196593": 73,
+        "PMC3954981": 73,
+        "PMC2267747": 20,
+        "PMC6187405": 16,
+        "PMC3572853": 11,
+        "PMC4610306": 9,
+        "PMC5018872": 8,
+        "PMC8762737": 6,
+        "PMC10860174": 6
+      }
+    },
+    "pclids": {
+      "missing": 331986,
+      "missing_pct": 99.89,
+      "unique": 27,
+      "type": "numeric",
+      "dtype": "float64",
+      "top_values": null
+    },
+    "citations": {
+      "missing": 331986,
+      "missing_pct": 99.89,
+      "unique": 27,
+      "type": "categorical_low",
+      "dtype": "object",
+      "top_values": null
+    },
+    "BioAssay_AID": {
+      "missing": 0,
+      "missing_pct": 0.0,
+      "unique": 114,
+      "type": "numeric",
+      "dtype": "int64",
+      "top_values": null
+    },
+    "Substance_SID": {
+      "missing": 0,
+      "missing_pct": 0.0,
+      "unique": 328541,
+      "type": "numeric",
+      "dtype": "int64",
+      "top_values": null
+    },
+    "Compound_CID": {
+      "missing": 1,
+      "missing_pct": 0.0,
+      "unique": 328132,
+      "type": "numeric",
+      "dtype": "float64",
+      "top_values": null
+    },
+    "refsid": {
+      "missing": 332330,
+      "missing_pct": 99.99,
+      "unique": 14,
+      "type": "numeric",
+      "dtype": "float64",
+      "top_values": null
+    },
+    "Gene_ID": {
+      "missing": 226,
+      "missing_pct": 0.07,
+      "unique": 6,
+      "type": "numeric",
+      "dtype": "float64",
+      "top_values": null
+    },
+    "PMID": {
+      "missing": 331986,
+      "missing_pct": 99.89,
+      "unique": 27,
+      "type": "numeric",
+      "dtype": "float64",
+      "top_values": null
+    },
+    "Last_Modified_Date": {
+      "missing": 0,
+      "missing_pct": 0.0,
+      "unique": 31,
+      "type": "numeric",
+      "dtype": "int64",
+      "top_values": null
+    },
+    "Has_Dose_Response_Curve": {
+      "missing": 0,
+      "missing_pct": 0.0,
+      "unique": 2,
+      "type": "numeric",
+      "dtype": "int64",
+      "top_values": null
+    },
+    "RNAi_BioAssay": {
+      "missing": 0,
+      "missing_pct": 0.0,
+      "unique": 1,
+      "type": "numeric",
+      "dtype": "int64",
+      "top_values": null
+    },
+    "Activity_Value": {
+      "missing": 330090,
+      "missing_pct": 99.32,
+      "unique": 689,
+      "type": "numeric",
+      "dtype": "float64",
+      "top_values": null
+    },
+    "Taxonomy_ID": {
+      "missing": 0,
+      "missing_pct": 0.0,
+      "unique": 2,
+      "type": "numeric",
+      "dtype": "int64",
+      "top_values": null
+    },
+    "Target_Taxonomy_ID": {
+      "missing": 332359,
+      "missing_pct": 100.0,
+      "unique": 0,
+      "type": "numeric",
+      "dtype": "float64",
+      "top_values": null
+    },
+    "Anatomy_ID": {
+      "missing": 332359,
+      "missing_pct": 100.0,
+      "unique": 0,
+      "type": "numeric",
+      "dtype": "float64",
+      "top_values": null
+    }
+  },
+  "target_analysis": {
+    "target_distribution": {
+      "PADI4 - peptidyl arginine deiminase 4 (human)": 331742,
+      "PADI3 - peptidyl arginine deiminase 3 (human)": 149,
+      "PADI2 - peptidyl arginine deiminase 2 (human)": 149,
+      "protein-arginine deiminase type-1 (human)": 149,
+      "Protein-arginine deiminase type-4 (human)": 77,
+      "Padi4 - peptidyl arginine deiminase, type IV (house mouse)": 65,
+      "Padi2 - peptidyl arginine deiminase, type II (house mouse)": 16,
+      "PADI1 - peptidyl arginine deiminase 1 (human)": 12
+    },
+    "padi_counts": {
+      "PADI1": 12,
+      "PADI2": 165,
+      "PADI3": 149,
+      "PADI6": 0,
+      "PADI4": 331807
+    }
+  },
+  "activity_analysis": {
+    "activity_type_counts": {
+      "NaN": 330109,
+      "IC50": 2173,
+      "Ki": 68,
+      "Km": 4,
+      "Kcat": 4,
+      "Kinact": 1
+    },
+    "activity_qualifier_counts": {
+      "NaN": 331924,
+      "=": 175,
+      "<": 126,
+      ">": 122,
+      "<=": 12
+    },
+    "activity_value_stats": {
+      "min": 0.005,
+      "max": 77690.0,
+      "mean": 123.35800274966947,
+      "median": 0.147,
+      "q25": 0.062,
+      "q75": 3.0,
+      "outliers_count": 415
+    }
+  },
+  "assay_quality": {
+    "aid_type": {
+      "Screening": 329316,
+      "Confirmatory": 2274,
+      "Other": 591,
+      "Literature-derived": 178
+    },
+    "has_dose_response": {
+      "0": 332325,
+      "1": 34
+    },
+    "data_source": {
+      "The Scripps Research Institute Molecular Screening Center": 329949,
+      "BindingDB": 2028,
+      "ChEMBL": 379,
+      "IUPHAR/BPS Guide to PHARMACOLOGY": 3
+    },
+    "is_high_quality_confirmatory": false
+  },
+  "duplication_overlap": {
+    "bioactivity_id_unique": true,
+    "compounds_with_multiple_measurements": "3428",
+    "max_measurements_per_compound": 23,
+    "top_multiple_compounds": {
+      "13891339.0": 23,
+      "21771691.0": 23,
+      "54756940.0": 17,
+      "54756938.0": 17,
+      "253688.0": 14
+    }
+  },
+  "metadata_assessment": {
+    "doi_pct": 0.11222804256842751,
+    "pmid_pct": 0.11222804256842751,
+    "unique_assay_names": 110,
+    "protein_accession_coverage": 100.0
+  },
+  "pad4_filter_preview": {
+    "pad4_human_rows": 331742,
+    "ic50_only_rows": 2032
+  },
+  "integration_recommendation": {
+    "primary_activity_source": false,
+    "metadata_enrichment_layer": true,
+    "selectivity_dataset": true,
+    "extract_columns": [
+      "Compound_CID",
+      "Activity_Value",
+      "Target_Name",
+      "Activity_Type",
+      "dois",
+      "PMID"
+    ],
+    "keep_rows_condition": "Keep all rows to compute selectivity across PADI1-6",
+    "pipeline_plug_point": "Selectivity / off\u2011target panel for PAD4 inhibitors",
+    "rationale": "Data includes multiple PADI isoforms, enabling selectivity analysis. Use as a supplementary dataset to assess compound specificity."
+  }
+}
