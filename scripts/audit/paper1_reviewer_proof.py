@@ -62,7 +62,7 @@ warnings.filterwarnings("ignore")
 # -----------------------------------------------------------------------------
 # Config
 # -----------------------------------------------------------------------------
-PROJECT_ROOT = Path("/home/nidhal/PAD4_BENCH")
+PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent
 DATA_PROCESSED = PROJECT_ROOT / "data" / "processed"
 SPLITS_ROOT = PROJECT_ROOT / "data" / "splits"
 FEATURES_ROOT = PROJECT_ROOT / "features_v18"

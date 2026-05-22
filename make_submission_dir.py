@@ -43,30 +43,18 @@ INCLUDE_TOPLEVEL = [
     "models_v1",            # all 190 model cells + results
     "paper",                # figures + tables asset store
     "paper_intro",          # 4 intro/audit reports
-    "scripts",              # curation, featurization, split scripts
+    "analysis",             # paper figure + table generation scripts
+    "scripts",              # curation, featurization, split, sweep, audit scripts
     "docs",                 # data provenance docs
-    "tests",                # whatever test coverage exists
+    "tests",                # test coverage
     "results",              # diagnostics + per-task READMEs
-    # root-level python scripts:
-    "covalent_inspection.py",
-    "external_validation_inventory.py",
-    "overnight_followup.py",
-    "paper1_reviewer_proof.py",
-    "paper_ad_stats.py",
-    "paper_calibration_ad.py",
-    "paper_data_figures.py",
-    "paper_data_introspection.py",
-    "paper_results_figures.py",
-    "paper_tables.py",
-    "reviewer_audit.py",
-    "sweep_classification.py",
-    "sweep_regression.py",
     # root-level config / metadata:
     "environment.yml",
     "requirements.txt",
     "README.md",
     "LICENSE",
     "run_featurize_v18.sh",
+    "make_submission_dir.py",
 ]
 
 # Top-level items deliberately EXCLUDED. Listed only for the run log so you

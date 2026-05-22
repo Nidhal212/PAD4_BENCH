@@ -33,7 +33,7 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 
-PROJECT_ROOT   = Path("/home/nidhal/PAD4_BENCH")
+PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent
 DATA_PROCESSED = PROJECT_ROOT / "data" / "processed"
 DATA_RAW       = PROJECT_ROOT / "data" / "raw"
 OUT_ROOT       = PROJECT_ROOT / "paper_intro"

@@ -51,7 +51,7 @@ warnings.filterwarnings("ignore", category=ConvergenceWarning)
 # -----------------------------------------------------------------------------
 # Config
 # -----------------------------------------------------------------------------
-PROJECT_ROOT = Path("/home/nidhal/PAD4_BENCH")
+PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent
 TASK = "classification"
 FEATURES_ROOT = PROJECT_ROOT / "features_v18" / TASK
 MODELS_ROOT = PROJECT_ROOT / "models_v1" / TASK

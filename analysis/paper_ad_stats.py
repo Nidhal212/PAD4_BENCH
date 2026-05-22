@@ -34,7 +34,7 @@ import numpy as np
 import pandas as pd
 from scipy.stats import pearsonr, spearmanr
 
-PROJECT_ROOT = Path("/home/nidhal/PAD4_BENCH")
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
 OUT_TBL_SUPP = PROJECT_ROOT / "paper" / "tables" / "supp"
 PER_COMPOUND = OUT_TBL_SUPP / "T14_applicability_domain_per_compound.csv"
 

@@ -42,7 +42,7 @@ from matplotlib.colors import LinearSegmentedColormap
 # -----------------------------------------------------------------------------
 # Paths and config
 # -----------------------------------------------------------------------------
-PROJECT_ROOT = Path("/home/nidhal/PAD4_BENCH")
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
 MODELS_ROOT  = PROJECT_ROOT / "models_v1"
 RESULTS_CSV  = MODELS_ROOT / "all_results.csv"
 OUT_MAIN     = PROJECT_ROOT / "paper" / "figures" / "results" / "main"

@@ -40,7 +40,7 @@ import pandas as pd
 # -----------------------------------------------------------------------------
 # Paths
 # -----------------------------------------------------------------------------
-PROJECT_ROOT = Path("/home/nidhal/PAD4_BENCH")
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
 MODELS_ROOT  = PROJECT_ROOT / "models_v1"
 SPLITS_ROOT  = PROJECT_ROOT / "data" / "splits"
 RESULTS_CSV  = MODELS_ROOT / "all_results.csv"

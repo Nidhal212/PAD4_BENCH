@@ -29,7 +29,7 @@ from pathlib import Path
 
 import pandas as pd
 
-REPO        = Path("/home/nidhal/PAD4_BENCH")
+REPO = Path(__file__).resolve().parent.parent.parent
 SPLITTER    = REPO / "scripts" / "pad_split_v8_4.py"
 SPLITS_BASE = REPO / "data" / "splits"
 TMP_BASE    = REPO / "data" / "splits_validation"
